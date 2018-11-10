@@ -7,9 +7,9 @@
   register: json_response
 
 - name: Install PhpMetrics.
-  become: yes
+  become: true
   get_url:
     url: https://github.com/phpmetrics/PhpMetrics/releases/download/{{ json_response.json.tag_name }}/phpmetrics.phar
     dest: /usr/local/bin/phpmetrics
     mode: 0755
-    force: yes
+    force: true
