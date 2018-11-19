@@ -1,5 +1,6 @@
 PhpMetrics Ansible role
 =========
+[![Build Status](https://travis-ci.com/devsoul/ansible-role-phpmetrics.svg?branch=master)](https://travis-ci.com/devsoul/ansible-role-phpmetrics)
 
 If you are a PHP developer and you use PhpMetrics.
 
